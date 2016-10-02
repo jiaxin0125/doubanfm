@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* 右上角登录部分 */
+.loading {
+  width: 250px;
+  height: 35px;
+  position: absolute;
+  left: 882px;
+  background-color: #E5E6E6;
+  z-index: 20;
+}
+.loading_ul {
+  position: relative;
+  left: -40px;
+  top: -5px;
+}
+.load {
+  font-size: 12px;
+  color: #666666;
+}
+.load:hover {
+  color: black;
+  cursor: pointer;2bbb
+}
+.loading_denglu {
+  width: 63px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+}
+.loading_zhuce {
+  width: 91px;
+  height: 15px;
+  text-align: center;
+  border-right: 1px dotted #666666;
+  border-left: 1px dotted #666666;
+  line-height: 15px;
+}
+.loading_kaiqi {
+  width: 91px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+  left: 158px;
+  top: -16px;
+}
+.loading_pro {
+  position: relative;
+  top: 2px;
+}
+/* 顶端部分 */
+#divtop {
+  width: 900px;
+  height: 170px;
+  margin-top: 0px;
+  position: relative;
+  left: 232px;
+}
+.logo {
+  margin-top: 54px;
+  margin-left: 54px;
+}
+.lfloat {
+  float: left;
+}
+/* 上层部分 */ 
+#div_up {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 900px;
+    overflow: auto;
+    border: 1px solid blue;
+}
+#div_up1 {
+    border: 1px solid blue; 
+    width: 900px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+#divup_left {
+    width: 285px;
+    margin: 159px 0 88px 32px;
+    z-index: 28;
+    border: 1px solid blue; 
+}
+.divup_left1_ul_li1 {
+    font-size: 13px;
+    width: 220px;
+    height: 38px;
+    line-height: 38px;
+    color: #333333;
+    margin-bottom: 18px;
+    position: relative;
+    cursor: pointer;
+    background-color: #D4DEE3;
+}
+.divup_left1_ul_li1:hover {
+  background-color: #BCCAC5;
+}
+.divup_left1_ul_li2 {
+    font-size: 13px;
+    width: 220px;
+    height: 38px;
+    line-height: 38px;
+    color: #333333;
+    margin-bottom: 18px;
+    position: relative;
+    cursor: pointer;
+    background-color: #9DD6C5;
+}
+/* 最近收听 */
+#neartime_listen {
+    width: 263px;
+    margin: 30px auto; 
+    font-size: 13px;
+    color: #888888;
+}
+.neartime_listen_ul {
+  position: relative;
+  left: -11px;
+}
+.line {
+    display: inline-block;
+    height: 0;
+    border-bottom: 1px solid #888888;
+    opacity: 0.3;
+    width: 156px;
+    position: relative;
+    bottom: 3px;
+    _bottom: 8px;
+    left: 10px;
+    margin-right: 7px;
+}
+/* 试试这些 */
+#try_these {
+    width: 263px;
+    margin: 30px auto; 
+    font-size: 13px;
+    color: #888888;
+}
+.try_these_ul {
+    font-size: 13px;
+    width: 220px;
+    height: 38px;
+    line-height: 38px;
+    color: #333333;
+    margin-bottom: 18px;
+    position: relative;
+    cursor: pointer;
+    background-color: #D4DEE3;
+    left: -11px;
+}
+.try_these_ul:hover {
+  background-color: #BCCAC5;
+}
+/* 品牌兆赫 */
+#pinpai {
+    width: 263px;
+    margin: 30px auto;
+    font-size: 13px;
+    color: #888888;
+}
+.pinpai_ul {
+    font-size: 13px;
+    width: 220px;
+    height: 38px;
+    line-height: 38px;
+    color: #333333;
+    margin-bottom: 18px;
+    position: relative;
+    cursor: pointer;
+    background-color: #D4DEE3;
+    left: -11px;
+}
+.pinpai_ul:hover {
+  background-color: #BCCAC5;
+}
+/* 中间灰色div */
+#divbody {
+  width: 1366px;
+  height: 275px;
+  background-color: #E1E8E5;
+}
+/* 下方说明部分 */
+#div_shuoming {
+  width: 1349px;
+  height: 287px;
+  border:1px solid blue;
+  margin-bottom: 145px;
+}
+#div_shuoming_language {
+    position: relative;
+    top: 230px;
+    width: 904px;
+    margin: 0 auto;
+    border:1px solid blue;
+}
+#div_shuoming_language_left {
+    font-size: 13px;
+    color: #999999;
+    font-family: 宋体;
+    text-align: center;
+}
+.div_shuoming_number:hover {
+    color: white;
+    background-color: #999999;
+    cursor: pointer;
+}
+.div_shuoming_user:hover {
+    color: #95667D;
+    cursor: pointer;
+}
+/* 底端部分 */
+#divbottom {
+  width: 958px;
+  height: 98px;
+  background-color: #d9d9d9;
+  position: fixed;
+  left: 204px;
+  bottom: 0px;
+  text-align: center;
+  line-height: 100px;
+}
