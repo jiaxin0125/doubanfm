@@ -14,7 +14,7 @@ li {
   position: absolute;
   left: 882px;
   background-color: #E5E6E6;
-  z-index: 20;
+  z-index: 800;
 }
 .loading_ul {
   position: relative;
@@ -63,6 +63,13 @@ li {
   margin-top: 0px;
   position: relative;
   left: 232px;
+  z-index: 20;
+}
+#divtop1 {
+  width: 350px;
+  height: 150px;
+  z-index: 999;
+  background-color: white;
 }
 .logo {
   margin-top: 54px;
@@ -80,19 +87,18 @@ li {
     width: 100%;
     min-width: 900px;
     overflow: auto;
-    border: 1px solid blue;
 }
 #div_up1 {
-    border: 1px solid blue; 
     width: 900px;
     margin: 0 auto;
     overflow-x: hidden;
+    position: relative;
+    top: 0px;
 }
 #divup_left {
     width: 285px;
     margin: 159px 0 88px 32px;
     z-index: 28;
-    border: 1px solid blue; 
 }
 .divup_left1_ul_li1 {
     font-size: 13px;
@@ -141,7 +147,6 @@ li {
     overflow: hidden;
     background: #fff;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    border:1px solid blue;
     z-index: 30;
     position: absolute;
     left: 620px;
@@ -150,11 +155,15 @@ li {
 #photo {
     width: 510px;
     height: 245px;
+    z-index: 900;
+    background-color: white;
 }
+
 .music_start {
   position: relative;
   left: 215px;
   top: -222px;
+  z-index: 900;
 }
 .music_name {
     font-size: 23px;
@@ -270,7 +279,7 @@ li {
   position: relative;
   top: 180px;
   left: 621px;
-  z-index: 60;
+  z-index: 30;
   font-size: 13px;
   color: #888888;
 }
@@ -281,6 +290,30 @@ li {
 }
 .send:hover {
   color: #999999;
+  cursor: pointer;
+}
+/* 听相似歌曲 */
+#sound_like {
+  width: 102px;
+  height: 28px;
+  z-index: 60;
+  position: absolute;
+  left: 1032px;
+  top: 350px;
+  cursor: pointer;
+}
+/* 分享这首歌 */
+
+
+
+/* 来下载吧 */
+#xiazai {
+  width: 161px;
+  height: 38px;
+  z-index: 60;
+  position: absolute;
+  left: 970px;
+  top: 490px;
   cursor: pointer;
 }
 /* 最近收听 */
@@ -359,7 +392,6 @@ li {
 #div_shuoming {
   width: 1349px;
   height: 287px;
-  border:1px solid blue;
   margin-bottom: 145px;
 }
 #div_shuoming_language {
@@ -367,7 +399,6 @@ li {
     top: 230px;
     width: 904px;
     margin: 0 auto;
-    border:1px solid blue;
 }
 #div_shuoming_language_left {
     font-size: 13px;
@@ -394,4 +425,251 @@ li {
   bottom: 0px;
   text-align: center;
   line-height: 100px;
+}
+
+
+
+/*左侧div*/
+#divleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 675px;
+    height: 150%;
+    z-index: 999;
+    box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border: 1px solid blue;
+    background-color: white;
+    /*transition: width 4s,height 4s,transform 4s;*/
+}
+#divleft:hover {
+    height: 150%;
+    width: 675px;
+    cursor: pointer;
+    z-index: 50;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#divleft_top {
+  width: 675px;
+  height: 170px;
+  border: 1px solid blue;
+}
+.all {
+  color: #A8AEB2;
+  font-size: 30px;
+  position: relative;
+  top: 75px;
+  left: 50px;
+}
+#input {
+  width: 240px;
+  height: 32px;
+  border: 1px solid #E1E8E6;
+  position: relative;
+  top: 50px;
+  left: 392px;
+  line-height: 32px;
+}
+#safari {
+  width: 215px;
+  border: none;
+  outline: medium;
+  position: relative;
+  left: 10px;
+}
+#sousuo {
+  position: relative;
+  top: -31px;
+  left: 215px;
+}
+#divleft_body {
+  width: 675px;
+  height: 800px;
+  border: 1px solid red;
+}
+#divleft_sound {
+  width: 675px;
+  height: 276px;
+  background-color: #EFF5F2;
+}
+#tupian {
+  width: 289px;
+  height: 275px;
+}
+#tupian_shuoming {
+  width: 384px;
+  height: 275px;
+  position: relative;
+  left: 290px;
+  top: -277px;
+}
+#yuan1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #D4E1DC;
+  font-size: 10px;
+  text-align: center;
+  color: #9DA1A9;
+  position: relative;
+  left: 25px;
+  top: 30px;
+}
+#yuan2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #D4E1DC;
+  font-size: 10px;
+  text-align: center;
+  color: #9DA1A9;
+  position: relative;
+  left: 45px;
+  top: 15px;
+}
+#yuan3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #D4E1DC;
+  font-size: 10px;
+  text-align: center;
+  color: #9DA1A9;
+  position: relative;
+  left: 65px;
+  top: 0px;
+}
+#yuan4 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #D4E1DC;
+  font-size: 10px;
+  text-align: center;
+  color: #9DA1A9;
+  position: relative;
+  left: 85px;
+  top: -15px;
+}
+#yuan5 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #D4E1DC;
+  font-size: 10px;
+  text-align: center;
+  color: #9DA1A9;
+  position: relative;
+  left: 105px;
+  top: -30px;
+}
+#yuan6 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #D4E1DC;
+  font-size: 10px;
+  text-align: center;
+  color: #9DA1A9;
+  position: relative;
+  left: 125px;
+  top: -45px;
+}
+#yuan1:hover,#yuan2:hover,#yuan3:hover,#yuan4:hover,#yuan5:hover,#yuan6:hover {
+  background-color: #9DD6C5;
+}
+#shuoming_inner {
+  width: 380px;
+  height: 206px;
+  position: relative;
+  top: -23px;
+}
+#song_name{
+  font-size: 19px;
+  color: #8B8E8C;
+  position: relative;
+  left: 25px;
+}
+#song_name:hover {
+  color: #9DD6C5;
+}
+#kaishi {
+  position: relative;
+  top: 5px;
+}
+#song_shuoming {
+  font-size: 13px;
+  color: #636564;
+  position: relative;
+  left: 25px;
+  top: 15px;
+}
+#xiangqing {
+  font-size: 13px;
+  color: #8B8E8C;
+  position: absolute;
+  left: 22px;
+  top: 160px;
+}
+#xiangqing:hover {
+  color: #9DD6C5;
+}
+#chuxian0 {
+  position: absolute;
+  left: 366px;
+  top: 75px;
+}
+/*歌曲类型*/
+#leixing {
+  width: 675px;
+  height: 125px;
+  border: 1px solid blue;
+  position: relative;
+  top: -273px;
+}
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #888888;
+}
+li {
+  float: left;
+}
+#leixing_ul {
+  position: relative;
+  top: 30px;
+}
+.lianggezi {
+  width: 45px;
+  height: 16px;
+  border-right: 1px solid #CCCCCC;
+  text-align: center;
+}
+.sigezi {
+  width: 72px;
+  height: 16px;
+  border-right: 1px solid #CCCCCC;
+   text-align: center;
+}
+.liugezi {
+  width: 115px;
+  height: 16px;
+   text-align: center;
+}
+.zi:hover {
+  color: #9DD6C5;
 }

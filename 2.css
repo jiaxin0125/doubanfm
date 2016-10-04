@@ -1,0 +1,17 @@
+.div1 {
+  width: 40px;
+  height: 500px;
+  background-color: red;
+  /*transition: width 3s, height 3s,transform 5s;*/
+}
+/* .div1:hover .div2{
+  width: 500px;
+  height: 500px;
+} */
+.div2 {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  display: none;
+  /* transition: width 3s,height 3s,transform 5s; */
+  }
