@@ -69,7 +69,7 @@
                         <li class="divup_left1_ul_li2">&nbsp;&nbsp;豆瓣精选兆赫</li>
                     </ul>
                     <div id="neartime_listen">
-                        <ul class="neartime_listen_ul">最近收听<span class="line"></span></ul>
+                        <ul class="neartime_listen_ul"><span id="near">最近收听</span><span class="line"></span></ul>
                     </div>
                     <div id="try_these">
                         <ul class="neartime_listen_ul">试试这些<span class="line"></span></ul>
@@ -109,63 +109,226 @@
             <img src="image/bottom.png">
         </div>
     </div>
+    </div>
     <div id="zanting">
         <span>继续收听 ></span>
     </div>
     <!-- 左侧页面 -->
     <div id="divleft">
-        <div id="divleft_top">
-            <span class="all">全部兆赫</span>
-            <div id="input">
-                <input type="text" id="safari" placeholder="搜索兆赫">
-                <img src="image/safari.png" id="sousuo">
-            </div>
-        </div>
-        <div id="divleft_body">
-            <div id="divleft_sound">
-                <div id="tupian">
-                    <img src="image/sing.png" id="tupian1">
+        <div id="divleft_inner">
+            <div id="divleft_top">
+                <span class="all">全部兆赫</span>
+                <div id="input">
+                    <input type="text" id="safari" placeholder="搜索兆赫">
+                    <img src="image/safari.png" id="sousuo">
                 </div>
-                <div id="tupian_shuoming">
-                    <div id="yuan1">1</div>
-                    <div id="yuan2">2</div>
-                    <div id="yuan3">3</div>
-                    <div id="yuan4">4</div>
-                    <div id="yuan5">5</div>
-                    <div id="yuan6">6</div>
-                    <div id="shuoming_inner">
-                        <span id="song_name">Love the Way You Lie 系MHz
+            </div>
+            <div id="divleft_body">
+                <div id="divleft_sound">
+                    <div id="tupian">
+                        <img src="image/sing.png" id="tupian1">
+                    </div>
+                    <div id="tupian_shuoming">
+                        <div id="yuan1">1</div>
+                        <div id="yuan2">2</div>
+                        <div id="yuan3">3</div>
+                        <div id="yuan4">4</div>
+                        <div id="yuan5">5</div>
+                        <div id="yuan6">6</div>
+                        <div id="shuoming_inner">
+                            <span id="song_name">Love the Way You Lie 系MHz
                         <img src="image/kaishi.png" id="kaishi">
                       </span>
-                        <br>
-                        <span id="song_shuoming">为你推荐与 Skylar Grey - Love the Way You Lie 相似<br>的歌曲</span>
-                        <span id="xiangqing">兆赫详情</span>
-                        <div id="chuxian0">
+                            <br>
+                            <span id="song_shuoming">为你推荐与 Skylar Grey - Love the Way You Lie 相似<br>的歌曲</span>
+                            <span id="xiangqing">兆赫详情</span>
+                            <div id="chuxian0">
                             <img src="image/chuxian.png" id="chuxian">
                         </div>
+                        </div>
                     </div>
-                </div>
-                <div id="leixing">
-                    <ul id="leixing_ul">
-                      <li class="lianggezi"><a href="#" class="zi">摇滚</a></li>
-                      <li class="lianggezi"><a href="#" class="zi">古典</a></li>
-                      <li class="lianggezi"><a href="#" class="zi">爵士</a></li>
-                      <li class="sigezi"><a href="#" class="zi">民谣/乡村</a></li>
-                      <li class="lianggezi"><a href="#" class="zi">流行</a></li>
-                      <li class="lianggezi"><a href="#" class="zi">电子</a></li>
-                      <li class="sigezi"><a href="#" class="zi">原声配乐</a></li>
-                      <li class="sigezi"><a href="#" class="zi">轻音乐</a></li>
-                      <li class="lianggezi"><a href="#" class="zi">说唱</a></li>
-                      <li class="lianggezi"><a href="#" class="zi">雷鬼</a></li><br>
-                      <li class="lianggezi"><a href="#" class="zi">拉丁</a></li>
-                      <li class="sigezi"><a href="#" class="zi">世界音乐</a></li>
-                      <li class="sigezi"><a href="#" class="zi">布鲁斯</a></li>
-                      <li class="liugezi"><a href="#" class="zi">放克/灵歌/R&B</a></li>
-                    </ul>
+                    <div id="leixing">
+                        <ul id="leixing_ul">
+                            <li class="lianggezi"><a href="#" class="zi">摇滚</a></li>
+                            <li class="lianggezi"><a href="#" class="zi">古典</a></li>
+                            <li class="lianggezi"><a href="#" class="zi">爵士</a></li>
+                            <li class="sigezi"><a href="#" class="zi">民谣/乡村</a></li>
+                            <li class="lianggezi"><a href="#" class="zi">流行</a></li>
+                            <li class="lianggezi"><a href="#" class="zi">电子</a></li>
+                            <li class="sigezi"><a href="#" class="zi">原声配乐</a></li>
+                            <li class="sigezi"><a href="#" class="zi">轻音乐</a></li>
+                            <li class="lianggezi"><a href="#" class="zi">说唱</a></li>
+                            <li class="lianggezi"><a href="#" class="zi">雷鬼</a></li>
+                            <br>
+                            <li class="lianggezi"><a href="#" class="zi">拉丁</a></li>
+                            <li class="sigezi"><a href="#" class="zi">世界音乐</a></li>
+                            <li class="sigezi"><a href="#" class="zi">布鲁斯</a></li>
+                            <li class="liugezi"><a href="#" class="zi">放克/灵歌/R&B</a></li>
+                        </ul>
+                    </div>
+                    <div class="hot_hz">
+                        <ul>
+                            <li class="hot_hz_ul_li">热门兆赫</li>
+                            <li class="hot_hz_ul_li_huayu">
+                                <img src="image/huayu.png" class="huayu">
+                                <span class="huayu_hz">华语MHz</span>
+                                <br>
+                                <span class="shumu">1189首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_80">
+                                <img src="image/80.png" class="huayu">
+                                <span class="huayu_hz">八零MHz</span>
+                                <br>
+                                <span class="shumu">883首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_yueyu">
+                                <img src="image/yueyu.png" class="huayu">
+                                <span class="huayu_hz">粤语MHz</span>
+                                <br>
+                                <span class="shumu">2704首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_kafei">
+                                <img src="image/kafei.png" class="huayu">
+                                <span class="huayu_hz">咖啡MHz</span>
+                                <br>
+                                <span class="shumu">1710首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_kanshu">
+                                <img src="image/kanshu.png" class="huayu">
+                                <span class="huayu_hz">看书MHz</span>
+                                <br>
+                                <span class="shumu">1228首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_oumei">
+                                <img src="image/oumei.png" class="huayu">
+                                <span class="huayu_hz">欧美MHz</span>
+                                <br>
+                                <span class="shumu">3599首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_gongzuo">
+                                <img src="image/gongzuo.png" class="huayu">
+                                <span class="huayu_hz">工作学习MHz</span>
+                                <br>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_yinyue">
+                                <img src="image/qingyinyue.png" class="huayu">
+                                <span class="huayu_hz">轻音乐MHz</span>
+                                <br>
+                                <span class="shumu">2736首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_geci">
+                                <img src="image/geci.png" class="huayu">
+                                <span class="huayu_hz">你的歌词我的故事MHz</span>
+                                <br>
+                                <span class="shumu">588首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_jueshi">
+                                <img src="image/jueshi.png" class="huayu">
+                                <span class="huayu_hz">爵士MHz</span>
+                                <br>
+                                <span class="shumu">4163首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hot_hz">
+                        <ul>
+                            <li class="hot_hz_ul_li">上升最快</li>
+                            <li class="hot_hz_ul_li_huayu">
+                                <img src="image/huayu.png" class="huayu">
+                                <span class="huayu_hz">华语MHz</span>
+                                <br>
+                                <span class="shumu">1189首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_80">
+                                <img src="image/80.png" class="huayu">
+                                <span class="huayu_hz">八零MHz</span>
+                                <br>
+                                <span class="shumu">883首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_yueyu">
+                                <img src="image/yueyu.png" class="huayu">
+                                <span class="huayu_hz">粤语MHz</span>
+                                <br>
+                                <span class="shumu">2704首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_kafei">
+                                <img src="image/kafei.png" class="huayu">
+                                <span class="huayu_hz">咖啡MHz</span>
+                                <br>
+                                <span class="shumu">1710首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_kanshu">
+                                <img src="image/kanshu.png" class="huayu">
+                                <span class="huayu_hz">看书MHz</span>
+                                <br>
+                                <span class="shumu">1228首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_oumei">
+                                <img src="image/oumei.png" class="huayu">
+                                <span class="huayu_hz">欧美MHz</span>
+                                <br>
+                                <span class="shumu">3599首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_gongzuo">
+                                <img src="image/gongzuo.png" class="huayu">
+                                <span class="huayu_hz">工作学习MHz</span>
+                                <br>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_yinyue">
+                                <img src="image/qingyinyue.png" class="huayu">
+                                <span class="huayu_hz">轻音乐MHz</span>
+                                <br>
+                                <span class="shumu">2736首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_geci">
+                                <img src="image/geci.png" class="huayu">
+                                <span class="huayu_hz">你的歌词我的故事MHz</span>
+                                <br>
+                                <span class="shumu">588首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                            <li class="hot_hz_ul_li_jueshi">
+                                <img src="image/jueshi.png" class="huayu">
+                                <span class="huayu_hz">爵士MHz</span>
+                                <br>
+                                <span class="shumu">4163首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="divleft_bottom">
+                        <ul>
+                            <li class="hot_hz_ul_li">品牌兆赫</li>
+                            <li class="hot_hz_ul_li_huayu">
+                                <img src="image/nose.png" class="huayu">
+                                <span class="huayu_hz">最初的梦想MHz</span>
+                                <br>
+                                <span class="shumu">51首歌曲</span>
+                                <span class="huayu_xiangqing">兆赫详情</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>

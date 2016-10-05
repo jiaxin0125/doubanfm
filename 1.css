@@ -318,10 +318,15 @@ li {
 }
 /* 最近收听 */
 #neartime_listen {
-    width: 263px;
+    width: 160px;
     margin: 30px auto; 
     font-size: 13px;
     color: #888888;
+}
+#near {
+  position: relative;
+  left: -50px;
+  top: 15px;
 }
 .neartime_listen_ul {
   position: relative;
@@ -434,39 +439,34 @@ li {
     position: absolute;
     top: 0;
     left: 0;
-    width: 675px;
-    height: 150%;
+    width: 26px;
+    height: 140%;
     z-index: 999;
     box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.1);
     overflow: hidden;
-    border: 1px solid blue;
     background-color: white;
-    /*transition: width 4s,height 4s,transform 4s;*/
+    transition: width 3s,height 3s,transform 3s;
 }
 #divleft:hover {
-    height: 150%;
+    height: 235%;
     width: 675px;
     cursor: pointer;
     z-index: 50;
     background-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+#divleft_inner {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 674px;
+    background: #fff;
+}
 
 #divleft_top {
   width: 675px;
   height: 170px;
-  border: 1px solid blue;
 }
 .all {
   color: #A8AEB2;
@@ -498,8 +498,7 @@ li {
 }
 #divleft_body {
   width: 675px;
-  height: 800px;
-  border: 1px solid red;
+  height: 1350px;
 }
 #divleft_sound {
   width: 675px;
@@ -627,17 +626,16 @@ li {
 }
 #xiangqing:hover {
   color: #9DD6C5;
-}
+ }
 #chuxian0 {
-  position: absolute;
-  left: 366px;
-  top: 75px;
-}
+  position: relative;
+  left: 365px;
+  top: -40px;
+} 
 /*歌曲类型*/
 #leixing {
   width: 675px;
-  height: 125px;
-  border: 1px solid blue;
+  height: 120px;
   position: relative;
   top: -273px;
 }
@@ -672,4 +670,98 @@ li {
 }
 .zi:hover {
   color: #9DD6C5;
+}
+/*热门兆赫*/
+.hot_hz {
+  width: 675px;
+  height: 410px;
+  position: relative;
+  top: -275px;
+}
+.hot_hz_ul_li{
+  font-size: 13px;
+  position: relative;
+  left: 10px;
+}
+.huayu {
+  position: relative;
+  left: -52px;
+  top: 33px;
+}
+.huayu_hz {
+  font-size: 15px;
+  position: relative;
+  left: -55px;
+  top: 4px;
+}
+.shumu {
+  font-size: 12px;
+  color: #8B8E8C;
+  position: relative;
+  top: 5px;
+}
+.huayu_xiangqing {
+  color: #8B8E8C;
+  font-size: 12px;
+  position: relative;
+  top: 5px;
+}
+.huayu_xiangqing:hover {
+  color: #9DD6C5;
+}
+.hot_hz_ul_li_huayu{
+  position: relative;
+  left: 10px;
+  top: 0px;
+}
+.hot_hz_ul_li_80 {
+  position: relative;
+  left: -108px;
+  top: 67px;
+}
+.hot_hz_ul_li_yueyu {
+  position: relative;
+  left: -224px;
+  top: 134px;
+}
+.hot_hz_ul_li_kafei {
+  position: relative;
+  left: -340px;
+  top: 201px;
+}
+.hot_hz_ul_li_kanshu {
+  position: relative;
+  left: -453px;
+  top: 270px;
+}
+.hot_hz_ul_li_oumei {
+  position: relative;
+  left: 362px;
+  top: -73px;
+}
+.hot_hz_ul_li_gongzuo {
+  position: relative;
+  left: 246px;
+  top: -5px;
+}
+.hot_hz_ul_li_yinyue {
+  position: relative;
+  left: 101px;
+  top: 65px;
+}
+.hot_hz_ul_li_geci {
+  position: relative;
+  left: -32px;
+  top: 135px;
+}
+.hot_hz_ul_li_jueshi {
+  position: relative;
+  left: 361px;
+  top: 132px;
+}
+.divleft_bottom {
+  height: 130px;
+  width: 675px;
+  position: relative;
+  top: -275px;
 }
