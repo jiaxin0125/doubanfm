@@ -1,84 +1,106 @@
 body {
-  margin: 0;
+    margin: 0;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 li {
-  list-style: none;
+    list-style: none;
 }
+
+
 /* 右上角登录部分 */
+
 .loading {
-  width: 250px;
-  height: 35px;
-  position: absolute;
-  left: 882px;
-  background-color: #E5E6E6;
-  z-index: 800;
+    width: 250px;
+    height: 35px;
+    position: absolute;
+    left: 882px;
+    background-color: #E5E6E6;
+    z-index: 800;
 }
+
 .loading_ul {
-  position: relative;
-  left: -40px;
-  top: -5px;
+    position: relative;
+    left: -40px;
+    top: -5px;
 }
+
 .load {
-  font-size: 12px;
-  color: #666666;
+    font-size: 12px;
+    color: #666666;
 }
+
 .load:hover {
-  color: black;
-  cursor: pointer;2bbb
+    color: black;
+    cursor: pointer;
+    2bbb
 }
+
 .loading_denglu {
-  width: 63px;
-  height: 15px;
-  text-align: center;
-  line-height: 15px;
+    width: 63px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
 }
+
 .loading_zhuce {
-  width: 91px;
-  height: 15px;
-  text-align: center;
-  border-right: 1px dotted #666666;
-  border-left: 1px dotted #666666;
-  line-height: 15px;
+    width: 91px;
+    height: 15px;
+    text-align: center;
+    border-right: 1px dotted #666666;
+    border-left: 1px dotted #666666;
+    line-height: 15px;
 }
+
 .loading_kaiqi {
-  width: 91px;
-  height: 15px;
-  text-align: center;
-  line-height: 15px;
-  position: relative;
-  left: 158px;
-  top: -16px;
+    width: 91px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+    left: 158px;
+    top: -16px;
 }
+
 .loading_pro {
-  position: relative;
-  top: 2px;
+    position: relative;
+    top: 2px;
 }
+
+
 /* 顶端部分 */
+
 #divtop {
-  width: 900px;
-  height: 170px;
-  margin-top: 0px;
-  position: relative;
-  left: 232px;
-  z-index: 20;
+    width: 900px;
+    height: 170px;
+    margin-top: 0px;
+    position: relative;
+    left: 232px;
+    z-index: 20;
 }
+
 #divtop1 {
-  width: 350px;
-  height: 150px;
-  z-index: 999;
-  background-color: white;
+    width: 350px;
+    height: 150px;
+    z-index: 999;
+    background-color: white;
 }
+
 .logo {
-  margin-top: 54px;
-  margin-left: 54px;
+    margin-top: 54px;
+    margin-left: 54px;
 }
+
 .lfloat {
-  float: left;
+    float: left;
 }
-/* 上层部分 */ 
+
+
+/* 上层部分 */
+
 #div_up {
     position: absolute;
     top: 0;
@@ -88,6 +110,7 @@ li {
     min-width: 900px;
     overflow: auto;
 }
+
 #div_up1 {
     width: 900px;
     margin: 0 auto;
@@ -95,11 +118,13 @@ li {
     position: relative;
     top: 0px;
 }
+
 #divup_left {
     width: 285px;
     margin: 159px 0 88px 32px;
     z-index: 28;
 }
+
 .divup_left1_ul_li1 {
     font-size: 13px;
     width: 220px;
@@ -111,9 +136,11 @@ li {
     cursor: pointer;
     background-color: #D4DEE3;
 }
+
 .divup_left1_ul_li1:hover {
-  background-color: #BCCAC5;
+    background-color: #BCCAC5;
 }
+
 .divup_left1_ul_li2 {
     font-size: 13px;
     width: 220px;
@@ -125,33 +152,40 @@ li {
     cursor: pointer;
     background-color: #9DD6C5;
 }
+
+
 /* 暂停时显示的div */
+
 #zanting {
-  width: 265px;
-  height: 245px;
-  z-index: 100;
-  background-color: white;
-  opacity: 0.8;
-  position: absolute;
-  left: 866px;
-  top: 76px;
-  text-align: center;
-  line-height: 245px;
-  font-size: 13px;
-  display: none;
+    width: 265px;
+    height: 245px;
+    z-index: 100;
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    left: 866px;
+    top: 76px;
+    text-align: center;
+    line-height: 245px;
+    font-size: 13px;
+    display: none;
 }
+
+
 /* 音乐部分 */
+
 #div_music {
     width: 510px;
     height: 245px;
     overflow: hidden;
     background: #fff;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     z-index: 30;
     position: absolute;
     left: 620px;
     top: 75px;
 }
+
 #photo {
     width: 510px;
     height: 245px;
@@ -160,11 +194,12 @@ li {
 }
 
 .music_start {
-  position: relative;
-  left: 215px;
-  top: -222px;
-  z-index: 900;
+    position: relative;
+    left: 215px;
+    top: -222px;
+    z-index: 900;
 }
+
 .music_name {
     font-size: 23px;
     color: #676767;
@@ -172,12 +207,14 @@ li {
     left: -20px;
     top: -200px;
 }
+
 .music_time {
     font-size: 13px;
     position: relative;
     top: -182px;
     left: -85px;
 }
+
 .music_mingzi {
     font-size: 13px;
     position: relative;
@@ -185,153 +222,185 @@ li {
     top: -145px;
     color: #009966;
 }
+
 #audio_down {
-  width: 225px;
-  height: 3px;
-  background-color: #E5E5E8;
-  position: relative;
-  left: 270px;
-  top: -135px;
-  }
+    width: 225px;
+    height: 3px;
+    background-color: #E5E5E8;
+    position: relative;
+    left: 270px;
+    top: -135px;
+}
+
 #audio_up {
-  width: 225px;
-  height: 3px;
-  background-color: #9DD6C5;
+    width: 225px;
+    height: 3px;
+    background-color: #9DD6C5;
 }
+
 #time {
-  width: 50px;
-  height: 20px;
-  font-size: 13px;
-  position: relative;
-  left: 425px;
-  top: -130px;
-  text-align: center;
-  line-height: 20px;
-  color: #888888;
+    width: 50px;
+    height: 20px;
+    font-size: 13px;
+    position: relative;
+    left: 425px;
+    top: -130px;
+    text-align: center;
+    line-height: 20px;
+    color: #888888;
 }
+
 #voice_control {
-  height: 20px;
-  width: 60px;
-  position: relative;
-  left: 440px;
-  top: -137px;
-  background-color: white;
+    height: 20px;
+    width: 60px;
+    position: relative;
+    left: 440px;
+    top: -137px;
+    background-color: white;
 }
+
 #voice {
-  position: absolute;
-  left: 483px;
-  top: 139px;
+    position: absolute;
+    left: 483px;
+    top: 139px;
 }
+
 #voice1 {
-  position: relative;
-  left: -10px;
-  top: -7px;
+    position: relative;
+    left: -10px;
+    top: -7px;
 }
+
 #voice_up {
-  width: 46px;
-  height: 3px;
-  background-color: black;
-  position: relative;
-  top: -18px;
+    width: 46px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    top: -18px;
 }
+
 #yuandian {
-  width: 5px;
-  height: 10px;
-  float: right;
-  position: relative;
-  top: -5px;
-  z-index: 50;
+    width: 5px;
+    height: 10px;
+    float: right;
+    position: relative;
+    top: -5px;
+    z-index: 50;
 }
+
+
 /* 三个图标 */
+
 #heart {
-  position: relative;
-  left: 329px;
-  top: -60px;
+    position: relative;
+    left: 329px;
+    top: -60px;
 }
+
 #laji {
-  position: relative;
-  left: 353px;
-  top: -60px;
+    position: relative;
+    left: 353px;
+    top: -60px;
 }
+
 #next {
-  position: relative;
-  left: 375px;
-  top: -62px;
+    position: relative;
+    left: 375px;
+    top: -62px;
 }
+
 #voice_down {
-  width: 46px;
-  height: 3px;
-  background-color: #E5E5E8;
-  position: relative;
-  left: 9px;
-  top: 8px;
+    width: 46px;
+    height: 3px;
+    background-color: #E5E5E8;
+    position: relative;
+    left: 9px;
+    top: 8px;
 }
+
 .show {
-  display: block;
+    display: block;
 }
+
 .noshow {
-  display: none;
+    display: none;
 }
+
+
 /* 发送到手机 */
+
 #sendto_phone {
-  width: 127px;
-  height: 29px;
-  position: relative;
-  top: 180px;
-  left: 621px;
-  z-index: 30;
-  font-size: 13px;
-  color: #888888;
-}
-#save {
-  position: relative;
-  top: 5px;
-  left: 5px;
-}
-.send:hover {
-  color: #999999;
-  cursor: pointer;
-}
-/* 听相似歌曲 */
-#sound_like {
-  width: 102px;
-  height: 28px;
-  z-index: 60;
-  position: absolute;
-  left: 1032px;
-  top: 350px;
-  cursor: pointer;
-}
-/* 分享这首歌 */
-
-
-
-/* 来下载吧 */
-#xiazai {
-  width: 161px;
-  height: 38px;
-  z-index: 60;
-  position: absolute;
-  left: 970px;
-  top: 490px;
-  cursor: pointer;
-}
-/* 最近收听 */
-#neartime_listen {
-    width: 160px;
-    margin: 30px auto; 
+    width: 127px;
+    height: 29px;
+    position: relative;
+    top: 180px;
+    left: 621px;
+    z-index: 30;
     font-size: 13px;
     color: #888888;
 }
+
+#save {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.send:hover {
+    color: #999999;
+    cursor: pointer;
+}
+
+
+/* 听相似歌曲 */
+
+#sound_like {
+    width: 102px;
+    height: 28px;
+    z-index: 60;
+    position: absolute;
+    left: 1032px;
+    top: 350px;
+    cursor: pointer;
+}
+
+
+/* 分享这首歌 */
+
+
+/* 来下载吧 */
+
+#xiazai {
+    width: 161px;
+    height: 38px;
+    z-index: 60;
+    position: absolute;
+    left: 970px;
+    top: 490px;
+    cursor: pointer;
+}
+
+
+/* 最近收听 */
+
+#neartime_listen {
+    width: 160px;
+    margin: 30px auto;
+    font-size: 13px;
+    color: #888888;
+}
+
 #near {
-  position: relative;
-  left: -50px;
-  top: 15px;
+    position: relative;
+    left: -50px;
+    top: 15px;
 }
+
 .neartime_listen_ul {
-  position: relative;
-  left: -11px;
+    position: relative;
+    left: -11px;
 }
+
 .line {
     display: inline-block;
     height: 0;
@@ -343,13 +412,17 @@ li {
     left: 10px;
     margin-right: 7px;
 }
+
+
 /* 试试这些 */
+
 #try_these {
     width: 263px;
-    margin: 30px auto; 
+    margin: 30px auto;
     font-size: 13px;
     color: #888888;
 }
+
 .try_these_ul {
     font-size: 13px;
     width: 220px;
@@ -362,16 +435,21 @@ li {
     background-color: #D4DEE3;
     left: -11px;
 }
+
 .try_these_ul:hover {
-  background-color: #BCCAC5;
+    background-color: #BCCAC5;
 }
+
+
 /* 品牌兆赫 */
+
 #pinpai {
     width: 263px;
     margin: 30px auto;
     font-size: 13px;
     color: #888888;
 }
+
 .pinpai_ul {
     font-size: 13px;
     width: 220px;
@@ -384,57 +462,71 @@ li {
     background-color: #D4DEE3;
     left: -11px;
 }
+
 .pinpai_ul:hover {
-  background-color: #BCCAC5;
+    background-color: #BCCAC5;
 }
+
+
 /* 中间灰色div */
+
 #divbody {
-  width: 1366px;
-  height: 275px;
-  background-color: #E1E8E5;
+    width: 1366px;
+    height: 275px;
+    background-color: #E1E8E5;
 }
+
+
 /* 下方说明部分 */
+
 #div_shuoming {
-  width: 1349px;
-  height: 287px;
-  margin-bottom: 145px;
+    width: 1349px;
+    height: 287px;
+    margin-bottom: 145px;
 }
+
 #div_shuoming_language {
     position: relative;
     top: 230px;
     width: 904px;
     margin: 0 auto;
 }
+
 #div_shuoming_language_left {
     font-size: 13px;
     color: #999999;
     font-family: 宋体;
     text-align: center;
 }
+
 .div_shuoming_number:hover {
     color: white;
     background-color: #999999;
     cursor: pointer;
 }
+
 .div_shuoming_user:hover {
     color: #95667D;
     cursor: pointer;
 }
+
+
 /* 底端部分 */
+
 #divbottom {
-  width: 958px;
-  height: 98px;
-  background-color: #d9d9d9;
-  position: fixed;
-  left: 204px;
-  bottom: 0px;
-  text-align: center;
-  line-height: 100px;
+    width: 958px;
+    height: 98px;
+    background-color: #d9d9d9;
+    position: fixed;
+    left: 204px;
+    bottom: 0px;
+    text-align: center;
+    line-height: 100px;
 }
 
 
-
 /*左侧div*/
+
 #divleft {
     position: absolute;
     top: 0;
@@ -442,11 +534,12 @@ li {
     width: 26px;
     height: 140%;
     z-index: 999;
-    box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 10px 0px 10px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     background-color: white;
-    transition: width 3s,height 3s,transform 3s;
+    transition: width 3s, height 3s, transform 3s;
 }
+
 #divleft:hover {
     height: 235%;
     width: 675px;
@@ -454,6 +547,7 @@ li {
     z-index: 50;
     background-color: white;
 }
+
 #divleft_inner {
     position: absolute;
     right: 0;
@@ -465,303 +559,361 @@ li {
 }
 
 #divleft_top {
-  width: 675px;
-  height: 170px;
+    width: 675px;
+    height: 170px;
 }
+
 .all {
-  color: #A8AEB2;
-  font-size: 30px;
-  position: relative;
-  top: 75px;
-  left: 50px;
+    color: #A8AEB2;
+    font-size: 30px;
+    position: relative;
+    top: 75px;
+    left: 50px;
 }
+
 #input {
-  width: 240px;
-  height: 32px;
-  border: 1px solid #E1E8E6;
-  position: relative;
-  top: 50px;
-  left: 392px;
-  line-height: 32px;
+    width: 240px;
+    height: 32px;
+    border: 1px solid #E1E8E6;
+    position: relative;
+    top: 50px;
+    left: 392px;
+    line-height: 32px;
 }
+
 #safari {
-  width: 215px;
-  border: none;
-  outline: medium;
-  position: relative;
-  left: 10px;
+    width: 215px;
+    border: none;
+    outline: medium;
+    position: relative;
+    left: 10px;
 }
+
 #sousuo {
-  position: relative;
-  top: -31px;
-  left: 215px;
+    position: relative;
+    top: -31px;
+    left: 215px;
 }
+
 #divleft_body {
-  width: 675px;
-  height: 1350px;
+    width: 675px;
+    height: 1350px;
 }
+
 #divleft_sound {
-  width: 675px;
-  height: 276px;
-  background-color: #EFF5F2;
+    width: 675px;
+    height: 276px;
+    background-color: #EFF5F2;
 }
+
 #tupian {
-  width: 289px;
-  height: 275px;
+    width: 289px;
+    height: 275px;
 }
+
 #tupian_shuoming {
-  width: 384px;
-  height: 275px;
-  position: relative;
-  left: 290px;
-  top: -277px;
+    width: 384px;
+    height: 275px;
+    position: relative;
+    left: 290px;
+    top: -277px;
 }
+
 #yuan1 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  background-color: #D4E1DC;
-  font-size: 10px;
-  text-align: center;
-  color: #9DA1A9;
-  position: relative;
-  left: 25px;
-  top: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #D4E1DC;
+    font-size: 10px;
+    text-align: center;
+    color: #9DA1A9;
+    position: relative;
+    left: 25px;
+    top: 30px;
 }
+
 #yuan2 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  background-color: #D4E1DC;
-  font-size: 10px;
-  text-align: center;
-  color: #9DA1A9;
-  position: relative;
-  left: 45px;
-  top: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #D4E1DC;
+    font-size: 10px;
+    text-align: center;
+    color: #9DA1A9;
+    position: relative;
+    left: 45px;
+    top: 15px;
 }
+
 #yuan3 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  background-color: #D4E1DC;
-  font-size: 10px;
-  text-align: center;
-  color: #9DA1A9;
-  position: relative;
-  left: 65px;
-  top: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #D4E1DC;
+    font-size: 10px;
+    text-align: center;
+    color: #9DA1A9;
+    position: relative;
+    left: 65px;
+    top: 0px;
 }
+
 #yuan4 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  background-color: #D4E1DC;
-  font-size: 10px;
-  text-align: center;
-  color: #9DA1A9;
-  position: relative;
-  left: 85px;
-  top: -15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #D4E1DC;
+    font-size: 10px;
+    text-align: center;
+    color: #9DA1A9;
+    position: relative;
+    left: 85px;
+    top: -15px;
 }
+
 #yuan5 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  background-color: #D4E1DC;
-  font-size: 10px;
-  text-align: center;
-  color: #9DA1A9;
-  position: relative;
-  left: 105px;
-  top: -30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #D4E1DC;
+    font-size: 10px;
+    text-align: center;
+    color: #9DA1A9;
+    position: relative;
+    left: 105px;
+    top: -30px;
 }
+
 #yuan6 {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  background-color: #D4E1DC;
-  font-size: 10px;
-  text-align: center;
-  color: #9DA1A9;
-  position: relative;
-  left: 125px;
-  top: -45px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #D4E1DC;
+    font-size: 10px;
+    text-align: center;
+    color: #9DA1A9;
+    position: relative;
+    left: 125px;
+    top: -45px;
 }
-#yuan1:hover,#yuan2:hover,#yuan3:hover,#yuan4:hover,#yuan5:hover,#yuan6:hover {
-  background-color: #9DD6C5;
+
+#yuan1:hover,
+#yuan2:hover,
+#yuan3:hover,
+#yuan4:hover,
+#yuan5:hover,
+#yuan6:hover {
+    background-color: #9DD6C5;
 }
+
 #shuoming_inner {
-  width: 380px;
-  height: 206px;
-  position: relative;
-  top: -23px;
+    width: 380px;
+    height: 206px;
+    position: relative;
+    top: -23px;
 }
-#song_name{
-  font-size: 19px;
-  color: #8B8E8C;
-  position: relative;
-  left: 25px;
+
+#song_name {
+    font-size: 19px;
+    color: #8B8E8C;
+    position: relative;
+    left: 25px;
 }
+
 #song_name:hover {
-  color: #9DD6C5;
+    color: #9DD6C5;
 }
+
 #kaishi {
-  position: relative;
-  top: 5px;
+    position: relative;
+    top: 5px;
 }
+
 #song_shuoming {
-  font-size: 13px;
-  color: #636564;
-  position: relative;
-  left: 25px;
-  top: 15px;
+    font-size: 13px;
+    color: #636564;
+    position: relative;
+    left: 25px;
+    top: 15px;
 }
+
 #xiangqing {
-  font-size: 13px;
-  color: #8B8E8C;
-  position: absolute;
-  left: 22px;
-  top: 160px;
+    font-size: 13px;
+    color: #8B8E8C;
+    position: absolute;
+    left: 22px;
+    top: 160px;
 }
+
 #xiangqing:hover {
-  color: #9DD6C5;
- }
+    color: #9DD6C5;
+}
+
 #chuxian0 {
-  position: relative;
-  left: 365px;
-  top: -40px;
-} 
+    position: relative;
+    left: 365px;
+    top: -40px;
+}
+
+
 /*歌曲类型*/
+
 #leixing {
-  width: 675px;
-  height: 120px;
-  position: relative;
-  top: -273px;
+    width: 675px;
+    height: 120px;
+    position: relative;
+    top: -273px;
 }
+
 a {
-  text-decoration: none;
-  font-size: 13px;
-  color: #888888;
+    text-decoration: none;
+    font-size: 13px;
+    color: #888888;
 }
+
 li {
-  float: left;
+    float: left;
 }
+
 #leixing_ul {
-  position: relative;
-  top: 30px;
+    position: relative;
+    top: 30px;
 }
+
 .lianggezi {
-  width: 45px;
-  height: 16px;
-  border-right: 1px solid #CCCCCC;
-  text-align: center;
+    width: 45px;
+    height: 16px;
+    border-right: 1px solid #CCCCCC;
+    text-align: center;
 }
+
 .sigezi {
-  width: 72px;
-  height: 16px;
-  border-right: 1px solid #CCCCCC;
-   text-align: center;
+    width: 72px;
+    height: 16px;
+    border-right: 1px solid #CCCCCC;
+    text-align: center;
 }
+
 .liugezi {
-  width: 115px;
-  height: 16px;
-   text-align: center;
+    width: 115px;
+    height: 16px;
+    text-align: center;
 }
+
 .zi:hover {
-  color: #9DD6C5;
+    color: #9DD6C5;
 }
+
+
 /*热门兆赫*/
+
 .hot_hz {
-  width: 675px;
-  height: 410px;
-  position: relative;
-  top: -275px;
+    width: 675px;
+    height: 410px;
+    position: relative;
+    top: -275px;
 }
-.hot_hz_ul_li{
-  font-size: 13px;
-  position: relative;
-  left: 10px;
+
+.hot_hz_ul_li {
+    font-size: 13px;
+    position: relative;
+    left: 10px;
 }
+
 .huayu {
-  position: relative;
-  left: -52px;
-  top: 33px;
+    position: relative;
+    left: -52px;
+    top: 33px;
 }
+
 .huayu_hz {
-  font-size: 15px;
-  position: relative;
-  left: -55px;
-  top: 4px;
+    font-size: 15px;
+    position: relative;
+    left: -55px;
+    top: 4px;
 }
+
 .shumu {
-  font-size: 12px;
-  color: #8B8E8C;
-  position: relative;
-  top: 5px;
+    font-size: 12px;
+    color: #8B8E8C;
+    position: relative;
+    top: 5px;
 }
+
 .huayu_xiangqing {
-  color: #8B8E8C;
-  font-size: 12px;
-  position: relative;
-  top: 5px;
+    color: #8B8E8C;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
 }
+
 .huayu_xiangqing:hover {
-  color: #9DD6C5;
+    color: #9DD6C5;
 }
-.hot_hz_ul_li_huayu{
-  position: relative;
-  left: 10px;
-  top: 0px;
+
+.hot_hz_ul_li_huayu {
+    position: relative;
+    left: 10px;
+    top: 0px;
 }
+
 .hot_hz_ul_li_80 {
-  position: relative;
-  left: -108px;
-  top: 67px;
+    position: relative;
+    left: -108px;
+    top: 67px;
 }
+
 .hot_hz_ul_li_yueyu {
-  position: relative;
-  left: -224px;
-  top: 134px;
+    position: relative;
+    left: -224px;
+    top: 134px;
 }
+
 .hot_hz_ul_li_kafei {
-  position: relative;
-  left: -340px;
-  top: 201px;
+    position: relative;
+    left: -340px;
+    top: 201px;
 }
+
 .hot_hz_ul_li_kanshu {
-  position: relative;
-  left: -453px;
-  top: 270px;
+    position: relative;
+    left: -453px;
+    top: 270px;
 }
+
 .hot_hz_ul_li_oumei {
-  position: relative;
-  left: 362px;
-  top: -73px;
+    position: relative;
+    left: 362px;
+    top: -73px;
 }
+
 .hot_hz_ul_li_gongzuo {
-  position: relative;
-  left: 246px;
-  top: -5px;
+    position: relative;
+    left: 246px;
+    top: -5px;
 }
+
 .hot_hz_ul_li_yinyue {
-  position: relative;
-  left: 101px;
-  top: 65px;
+    position: relative;
+    left: 101px;
+    top: 65px;
 }
+
 .hot_hz_ul_li_geci {
-  position: relative;
-  left: -32px;
-  top: 135px;
+    position: relative;
+    left: -32px;
+    top: 135px;
 }
+
 .hot_hz_ul_li_jueshi {
-  position: relative;
-  left: 361px;
-  top: 132px;
+    position: relative;
+    left: 361px;
+    top: 132px;
 }
+
 .divleft_bottom {
-  height: 130px;
-  width: 675px;
-  position: relative;
-  top: -275px;
+    height: 130px;
+    width: 675px;
+    position: relative;
+    top: -275px;
 }

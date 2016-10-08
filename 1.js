@@ -27,7 +27,7 @@
     my_music.play();
     my_zanting.style.display = "none";
   }
-  //音量出现与消失
+      //音量出现与消失
   my_voice.onmouseover = function() {
     if(my_voice_control.classList.contains("noshow")){
       my_voice_control.className = "show";
@@ -42,7 +42,7 @@
       my_voice.style.visibility = "visible";
   }
     my_voice_up.style.width = my_music.volume * 80 + "%"
-  //音量拖动事件
+      //音量拖动事件
   var my_yuandian = document.getElementById("yuandian");
   var drag_start,small_div,big_div,drag_end,length;
   my_yuandian.ondragstart = function(event){
@@ -63,7 +63,7 @@
       }
       my_voice_up.style.width = my_music.volume * 100 + "%";
   }
-     //听相似歌曲
+      //听相似歌曲
   var my_sound_like = document.getElementById("sound_like");
   var my_sound = document.getElementById("sound");
   my_sound_like.onmouseover = function(){
@@ -89,7 +89,7 @@
   my_chuxian.onmouseout = function () {
     my_chuxian.src = "image/chuxian.png";
   }
-  //鼠标放在圆圈上变换图片和文字
+      //鼠标放在圆圈上变换图片和文字
   var my_tupian = document.getElementById("tupian1");
   var yuan1 = document.getElementById("yuan1");
   var yuan2 = document.getElementById("yuan2");
@@ -230,8 +230,4 @@
       yuan2.style.backgroundColor = "#D4E1DC";
   }
 
-
-
-
-  
 }(window))
